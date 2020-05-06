@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+set -ex
+tsc --declaration --project .
+mv dist/lib.js dist/lib.mjs
+tsc --module commonjs --project .

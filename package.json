@@ -1,0 +1,37 @@
+{
+  "name": "@postlight/use-search-params",
+  "private": true,
+  "version": "0.0.1",
+  "authors": [
+    "Adam Pash <adam.pash@postlight.com>",
+    "Zachary Golba <zachary.golba@postlight.com>"
+  ],
+  "license": "(Apache 2.0 OR MIT)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/postlight/use-search-params.git"
+  },
+  "main": "dist/lib.js",
+  "module": "dist/lib.mjs",
+  "types": "dist/lib.d.ts",
+  "scripts": {
+    "build": "scripts/build",
+    "clean": "rm -rf coverage dist",
+    "format": "prettier --config .prettierrc --write src/*.ts",
+    "test": "jest --passWithNoTests"
+  },
+  "devDependencies": {
+    "@types/history": "4.7.5",
+    "@types/jest": "25.2.1",
+    "@types/react": "16.9.34",
+    "@types/react-router-dom": "5.1.5",
+    "jest": "^25.3.0",
+    "prettier": "^2.0.4",
+    "ts-jest": "^25.3.1",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "react-router-dom": "^5.0.0",
+    "react": "^16.0.0"
+  }
+}

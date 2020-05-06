@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "strict": true,
+    "target": "ESNEXT"
+  },
+  "exclude": ["src/*.test.ts"],
+  "include": ["src/*.ts"]
+}
